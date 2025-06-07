@@ -1,4 +1,4 @@
-
+"use client"
 import { AddTask } from "./components/AddTask";
 
 import { getAllTodos } from "@/api";
