@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { AddTask } from "./components/AddTask";
 
 import { getAllTodos } from "@/api";
