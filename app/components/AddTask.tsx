@@ -17,13 +17,14 @@ const AddTask = () => {
         e.preventDefault();
         await addTodo({
             id: uuidv4(),
-            text: newTaskValue
-        })
+            text: newTaskValue,
+        });
         setNewTaskValue("");
         setModalOpen(false);
-        router.refresh
+        router.refresh();
         
-    }
+    };
+
     return (
         <>
             <div>
